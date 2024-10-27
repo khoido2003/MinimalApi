@@ -4,9 +4,6 @@ namespace MinimalAPI.DTOs
 {
   public class CommandUpdateDTO
   {
-    [Key]
-    public int Id { get; set; }
-
     [Required]
     public string? HowTo { get; set; }
 
